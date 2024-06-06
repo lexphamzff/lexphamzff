@@ -1,0 +1,22 @@
+-<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thổi nến sinh nhật</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cake-container">
+            <img src="cake.png" alt="Birthday Cake" id="cake">
+            <img src="" alt="Your Friend" id="friend-image">
+            <div id="friend-name"></div>
+            <div id="custom-message"></div>
+        </div>
+        <button onclick="blowCandle()">Thổi nến</button>
+        <input type="file" accept="image/*" onchange="previewImage(event)">
+        <input type="text" placeholder="Nhập tên của bạn" id="friend-name-input">
+        <input type="text" placeholder="Lời chúc" id="custom-message-input">
+    </div>
+    <scr
